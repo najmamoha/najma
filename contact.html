@@ -1,15 +1,17 @@
-!docktype.html>
+<!docktype.html>
 <html>
 <head>
-<title>HOME</title>
+<title>CONTACT</title>
+<link rel="stylesheet"href="./css/style.css">
 <style>
     body{margin:0;}
     .header{background-color:orchid;
       color:black;
       text-align:center;
       padding:20px;}
-    .nav{background-color:black;
-      overflow:hidden;}
+    .navbar{
+      display: flex;
+    }
     .navbar a{
         color:black;
         display:block;
@@ -18,21 +20,23 @@
         padding:14px 12px;
         float:left;}
     .navbar a:hover{
-        background-color:cyan;
+        background-color:white;
         color:orchid;}
-    .image img{
-        width:100%;
-        height:500px;}
-    .row{width:100%;
-         margin:0px 20%;}
     .colom{
-        float:left;
-        width:30%;
-        padding:20px;}
-    .row:after{
-        content:"";
-        display:table;
-        clear:both}
+        flex: 1;
+        }
+    .row{
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        align-items: center;
+        }
+        .register{
+          flex: 1;
+        }
+        form{
+          flex: 1;
+        }
     .footer{
         background-color:orchid;
         color:black;
@@ -42,31 +46,77 @@
 </head>
 <body>
    <div class="header">
-     <h1> MARGIC CLEANERS</h1>
-     <p><h2>the world of cleaners</h2></p></div>
+     <h1> MAGIC CLEANERS</h1>
+     <p><h2>creating the world of cleaners</h2>
+    welcome</p></div>
     <div class="navbar">
       <a href="index.html">HOME</a>
       <a href="about.html">ABOUT</a>
       <a href="contact.html">CONTACT</a>
       </div>
 <!--navbar ends here-->
-<div class="image">
-    <img src="./images/2.jpg">
-</div>
-<!--image ends here-->
-<div>
-  <p><h4> for the best cleaness of your house meet with margic cleaners we care all our customers your all most welcome</h4></p>
-</div>
+
 <div class="row">
- <h2>CONTACT<h2>
-   <p>Email:mohamwajuma5@gmail.com<p>
-   <p> whatsup:0748756164</p>
-   <p>instargarm:margic cleaners</p>
-   <p>phone:0748756164</p>
-   </div>
+  <div class="register">
+    <p>for the best cleaness of your house meet with magic cleaners we care all our customers your all most welcome</p>
+   <h2>CONTACT<h2>
+     <p>Email:mohamwajuma5@gmail.com<p>
+     <p> whatsup:0748756164</p>
+     <p>instargarm:magic cleaners</p>
+     <p>phone:0748756164</p>
+  </div>
+
+<form action="action-page.php">
+  <div class="container">
+    <hi>REGISTER</hi>
+    <p>please fill in this form to create an account.</p>
+ 
+    <hr>
+
+    <label for="name">
+      <b>User Name</b></label>
+      <input type="text"
+       placeholder="Enter your name "
+       name="email"id="email"
+       required>
+
+       <hr>
+
+    <label for="email">
+      <b>Email</b></label>
+      <input type="text"
+       placeholder="Enter Email or phone number"
+       name="email"id="email"
+       required>
+
+       <label for="psw-repeat">
+         <b> password</b>
+         </label>
+
+         <input type="password"
+         placeholder=" password"
+         name="psw-repeat"
+         id="psw-repeat"required>
+
+         <hr>
+
+         <p>By creating an account you agree to our 
+           <a href="#">Terms & privacy</a>.</p>
+           <button type="submit"
+           class="registerbtn">Register</button>
+  </div>
+
+  <div class="container signin">
+    <p>Already have an account? 
+      <a href="#"> sign in</a>.</p>
+  </div>
+</form>
+</div>
+
+<iframe width="100%" height="500" src="https://maps.google.com/maps?q=apps%20and%20girls&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
    
 <div class="footer"> 
-    <p><h3> www.margic cleaners.com</h3></p>
+    <p><h3> www.magic cleaners.com</h3></p>
 </div>
 </body>
 </html>
