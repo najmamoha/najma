@@ -3,10 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-.header{background-color:orchid;
-  color:black;
-  text-align:center;
-  padding:20px;}
+.header{
+    background-color:orchid;
+    color:black;
+    text-align:center;
+    padding:20px;
+}
 .navbar{
     background-color:white;
     overflow:hidden;
@@ -28,10 +30,14 @@
     display: flex;
     width:80%;
     margin: auto;
+    padding: 20px;
+    justify-content: space-between;
+        align-items: center;
 }
 .colomn{
     flex: 1;
-    padding: 20px;}
+    padding: 10px;
+}
 
     .services h1{
         text-align: center;
@@ -68,4 +74,10 @@
       .about-section{
         padding: 10px 20px;
         text-align: center;
+      }
+      .register{
+        flex: 1;
+      }
+      form{
+        flex: 1;
       }
