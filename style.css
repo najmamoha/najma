@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+	padding: 0px 20px;
+}
 .header{
     background-color:orchid;
     color:black;
@@ -66,10 +69,12 @@
         padding: 09px 20px;
       }
       .team-img{
-        flex: 1;
+		align-self: flex-start;
+        flex: 20%;
       }
       .team-content{
-        flex: 2;
+		  align-self: flex-start;
+        flex: 80%;
       }
       .about-section{
         padding: 10px 20px;
