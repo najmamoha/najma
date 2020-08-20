@@ -31,7 +31,7 @@ height: 200px;
     float:left;}
 .navbar a:hover{
     background-color:white;
-    color:orchid;}
+    color:#ff66c4;}
 .image img{
     width:100%;
     height:400px;}
@@ -52,7 +52,7 @@ height: 200px;
         text-align: center;
     }
 .footer{
-    background-color:orchid;
+    background-color:#ff66c4;
     color:black;
     width:100%;
     text-align:center;}
@@ -91,4 +91,7 @@ height: 200px;
       }
       form{
         flex: 1;
+        padding: 20px;
+        background-color:#ff66c4;
+        border-radius: 5px;
       }
