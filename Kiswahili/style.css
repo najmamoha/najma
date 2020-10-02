@@ -33,10 +33,13 @@ height: 200px;
     float:left;}
 .navbar a:hover{
     background-color:white;
-    color:#ff66c4;}
+    color:#ff66c4;
+}
 .image img{
     width:100%;
-    height:400px;}
+    height:500px;
+    box-shadow: 1px 1px 20px 1px #888888;
+}
 .row{
     display: flex;
     width:80%;
@@ -45,20 +48,34 @@ height: 200px;
     justify-content: space-between;
         align-items: center;
 }
+.row img{
+    width: 60px;
+    height: 60px;
+}
+
 .colomn{
     flex: 1;
     padding: 10px;
 }
-
+.colomn img{
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 1px 20px 1px #888888;
+}
     .services h1{
         text-align: center;
     }
-.footer{
-    background-color:#ff66c4;
-    color:black;
-    width:100%;
-    text-align:center;}
-
+    .footer{
+        color:black;
+        width:100%;
+        background-color: #ff66c4;
+        text-align: center;
+        display: flex;
+    }
+    .footer img{
+        width: 50px;
+        height: 50px;
+    }
     * {box-sizing: border-box;}
     /* slideshow container */
      .slideshow-container {
@@ -67,9 +84,6 @@ height: 200px;
          margin:auto
      }
 
-     /*hide the images by default*/
-     .my slides {display:none
-     }
      .team-img img{
         align-self: center;
         width: 200px;
@@ -88,16 +102,35 @@ height: 200px;
         padding: 10px 20px;
         text-align: center;
       }
+      .head{
+          text-align: center;
+      }
+      .about-section p{
+        text-align: center;
+        padding: 0px 200px;
+      }
       .register{
         flex: 1;
       }
       form{
         flex: 1;
         padding: 20px;
-        background-color:#ff66c4;
+        background-color:#ff66c4(323, 100%, 70%, 0.89);
         border-radius: 5px;
       }
-      input{
+
+      .FORM{
+          text-align: center;
+          background-color: whitesmoke;
+          box-shadow: 1px 1px 20px 1px #888888;
+          height: 900px;
+          width: 500px;
+          align-items: center;
+          align-content: center;
+          border: #ff66c4;
+          margin: auto;
+ }
+      .input{
           width: 100%;
           height: 30px;
           border: 1px solid #ff66c4;

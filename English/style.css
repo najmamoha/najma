@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -27,17 +28,20 @@ height: 200px;
     display:block;
     text-align:center;
     text-decoration:none;
-    padding:14px 12px;
-    float:left;}
+    padding:14px 12px 50px 12px;
+    float:left;
+}
 .navbar a:hover{
     background-color:white;
-    color:#ff66c4;}
-.image{
-    width:100%;
-    height:400px;
+    color:#ff66c4;
     text-align: center;
-    padding: 20px;
-background-image: url("./images/sw.jpg");}
+}
+
+.image img{
+    width:100%;
+    height:500px;
+    box-shadow: 1px 1px 20px 1px #888888;
+}
 .row{
     display: flex;
     width:80%;
@@ -45,6 +49,16 @@ background-image: url("./images/sw.jpg");}
     padding: 20px;
     justify-content: space-between;
         align-items: center;
+}
+.row img{
+    width: 60px;
+    height: 60px;
+}
+
+.colomn img{
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 1px 20px 1px #888888;
 }
 .colomn{
     flex: 1;
@@ -55,10 +69,16 @@ background-image: url("./images/sw.jpg");}
         text-align: center;
     }
 .footer{
-    background-color:#ff66c4;
     color:black;
     width:100%;
-    text-align:center;}
+    background-color: #ff66c4;
+    text-align: center;
+    display: flex;
+}
+.footer img{
+    width: 50px;
+    height: 50px;
+}
 
     * {box-sizing: border-box;}
     /* slideshow container */
@@ -89,15 +109,36 @@ background-image: url("./images/sw.jpg");}
         padding: 10px 20px;
         text-align: center;
       }
+      .head{
+          text-align: center;
+      }
+       .about-section p{
+        text-align: center;
+        padding: 0px 200px;
+      }
+
       .register{
         flex: 1;
       }
+    
       form{
         flex: 1;
         padding: 20px;
-        background-color:#ff66c4;
+        background-color:#ff66c4(323, 100%, 70%, 0.89);
         border-radius: 5px;
       }
+
+      .FORM{
+          text-align: center;
+          background-color: whitesmoke;
+          box-shadow: 1px 1px 20px 1px #888888;
+          height: 900px;
+          width: 500px;
+          align-items: center;
+          align-content: center;
+          border: #ff66c4;
+          margin: auto;
+ }
       input{
           width: 100%;
           height: 30px;
@@ -108,4 +149,7 @@ background-image: url("./images/sw.jpg");}
           padding: 5px;
           margin: 10px 0px;
           cursor: pointer;
+      }
+      .workers{
+          text-align: center;
       }
